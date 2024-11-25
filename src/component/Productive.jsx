@@ -1,11 +1,14 @@
 import { FaQuoteLeft } from "react-icons/fa";
+import arrow from "../assets/icon-arrow.svg";
+import illustrate2 from "../assets/illustration-2.svg";
+import testimonial from "../assets/avatar-testimonial.jpg"
 
 export default function Productive() {
   return (
     <section>
       <div className="productive">
         <div className="image">
-          <img src="./images/illustration-2.svg" alt="illustration-2" />
+          <img src={illustrate2} alt="illustration-2" />
         </div>
         <div className="content">
           <h1>Stay productive, wherever you are</h1>
@@ -19,18 +22,18 @@ export default function Productive() {
           </p>
           <p className="green">
             <a href="#">See how Fylo works</a>
-            <img src="./images/icon-arrow.svg" alt="icon" />
+            <img src={arrow} alt="icon" />
           </p>
           <div className="quote">
             <FaQuoteLeft />
             <p>
               Fylo has improved our team productivity by an order of magnitude.
-                Since making the switch our team has become a well-oiled
+              Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <div className="card">
               <div className="card-image">
-                <img src="./images/avatar-testimonial.jpg" alt="avatar" />
+                <img src={testimonial} alt="avatar" />
               </div>
               <div className="card-detail">
                 <h5>Kyle Burton</h5>

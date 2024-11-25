@@ -1,10 +1,10 @@
-
+import image1 from "../assets/illustration-1.svg"
 export default function Feature() {
   return (
     <section>
       <div className="feature">
         <div className="image">
-          <img src="./images/illustration-1.svg" alt="illustration-1" />
+          <img src={image1} alt="illustration-1" />
         </div>
         <div className="contents">
           <div className="content">

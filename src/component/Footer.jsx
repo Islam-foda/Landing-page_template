@@ -1,6 +1,7 @@
 import { FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 import { FiLayers } from "react-icons/fi";
-
+import email from "../assets/icon-email.svg"
+import phone from "../assets/icon-phone.svg"
 export default function Footer() {
   return (
     <footer>
@@ -11,11 +12,11 @@ export default function Footer() {
       <div className="footer">
         <div className="contactMe">
           <div className="mob">
-            <img src="./images/icon-phone.svg" alt="mobile-icon" />
+            <img src={phone} alt="mobile-icon" />
             <p>Phone: +1-543-123-4567</p>
           </div>
           <div className="email">
-            <img src="./images/icon-email.svg" alt="mail-icon" />
+            <img src={email} alt="mail-icon" />
             <p>example@fylo.com</p>
           </div>
         </div>

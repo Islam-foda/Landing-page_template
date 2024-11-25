@@ -1,11 +1,11 @@
-
+import logo from "../assets/logo.svg"
 
 export default function Header() {
   return (
     <header>
       <nav>
         <div className='logo'>
-          <img src="./images/logo.svg" alt="fylo logo"  />
+          <img src={logo} alt="fylo logo"  />
         </div>
         <ul>
           <li><a href="#features">Features</a></li>
