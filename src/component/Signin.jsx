@@ -11,19 +11,16 @@ export default function Signin() {
           </p>
         </div>
         <div className="subscribe">
-          <form action="" method="POST">
+          <form method="POST">
             <label htmlFor="email">
               <input
                 placeholder="email@example.com"
                 type="email"
-                id="email"
                 required="true"
               />
             </label>
             <label htmlFor="submit">
-              <button
-                type="submit"
-              >
+              <button id="submit" type="submit">
                 Get Started For Free
               </button>
             </label>

@@ -1,4 +1,4 @@
-import image1 from "../assets/illustration-1.svg"
+import image1 from "../assets/illustration-1.svg";
 export default function Feature() {
   return (
     <section>
@@ -16,18 +16,19 @@ export default function Feature() {
             </p>
           </div>
           <div className="subscribe">
-            <form action="" method="POST">
+            <form method="POST">
               <label htmlFor="email">
                 <input
                   placeholder="Enter your email."
                   type="email"
-                  id="email"
                   name="email"
                   required="true"
                 />
               </label>
               <label htmlFor="submit">
-                <button type="submit">Get Started</button>
+                <button id="submit" type="submit">
+                  Get Started
+                </button>
               </label>
             </form>
           </div>
