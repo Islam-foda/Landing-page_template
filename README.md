@@ -21,16 +21,13 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-
 ### Screenshot
 
 <img src="./design/Desktop-D.jpeg" width="50%">
 
-
 ### Links
 
-- Live Site URL: [Live Preview](https://github.com/Islam-foda/Frontend-mentor-lap/blob/main/fylo-landing-page-with-two-column-layout-master/index.html)
-
+- Live Site URL: [Live Preview](https://landing-page-template-xi-one.vercel.app/)
 
 ## My process
 
