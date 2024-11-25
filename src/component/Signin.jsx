@@ -17,15 +17,12 @@ export default function Signin() {
                 placeholder="email@example.com"
                 type="email"
                 id="email"
-                name="email"
                 required="true"
               />
             </label>
             <label htmlFor="submit">
               <button
                 type="submit"
-                aria-label="Get Started"
-                aria-description="Get Started for Free"
               >
                 Get Started For Free
               </button>
